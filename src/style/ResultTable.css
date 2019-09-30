@@ -1,0 +1,40 @@
+.container{
+    font-size: 13px;
+    background: #5383e8;
+    color: #fff;
+}
+
+.image{
+    height: 125px;
+    width: 125px;
+    border-radius: 95px;
+    margin-bottom: 5px;
+}
+
+
+.btn-primary{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-default{
+    border-radius: 5px;
+    width: 100%;
+}
+
+.not-found-msg{
+    padding-top: 10px;
+    font-size: 18px !important;
+    color: #fff;
+    font-weight: bold
+}
+
+.not-found-msg.p{
+    font-weight: normal
+}
+
+@media(max-width:768px){
+    .image-content{
+        text-align: center;
+    }
+}

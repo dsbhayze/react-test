@@ -1,0 +1,20 @@
+.Search{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding-top: 30px;
+    font-size: 13px !important;
+    background: #232f46
+}
+
+.form-control {
+    font-size: 13px !important;
+    grid-column-start: 3;
+    border-radius: 5px;
+    margin-bottom: 8px; 
+}
+.btn-info{
+    border-radius: 5px;
+    color: #ffffff;
+    width: 65px;
+    margin-bottom: 8px; 
+}

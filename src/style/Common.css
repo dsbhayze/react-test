@@ -1,0 +1,44 @@
+.title-repo{
+    padding-top: 1%;
+}
+
+.close-btn {
+    color: #fff;
+    background: #ff0400;
+    border: 0;
+}
+
+.x-icon{
+    background: #ff0400;
+    opacity: 100;
+    size: 10px;
+}
+
+.topic-style{
+    margin-top: 25px;
+    background: #232f46;
+    border-radius: 13px;
+    padding-bottom: 2%;
+}
+
+.forEach-topic-style{
+    border-radius: 10px;
+    list-style: none;
+}
+
+.forEach-topic-style-content{
+    padding-top: 10px;
+    padding-bottom: 1%;
+    padding-right: 10px;
+    background: #2e4470;
+    border-radius: 10px;
+    margin-top: 18px;
+    color: white;
+}
+
+.not-found-msg{
+    padding-top: 10px;
+    font-size: 18px !important;
+    color: #fff;
+    font-weight: bold
+}

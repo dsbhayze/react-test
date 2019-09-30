@@ -32,6 +32,7 @@ export default class ResultTable extends Component {
                 <div className="col-md-2 col-12 image-content">
                     <img className="image" src={avatar_url} alt="Avatar"/>
                 </div>
+                </div>
                 <div className="col-md-4 col-12">
                     <p>Id: {id}</p>
                     <p>Name: {name}</p>
@@ -47,10 +48,10 @@ export default class ResultTable extends Component {
                 </div>
                 <div className="col-md-1 col-12">
                     <div className="row">
-                        <div className="col-6">
+                        <div className="col-md-12 col-6">
                             <button className="btn-primary" onClick={()=> this.getRepositories()}>Repos</button>
                         </div>
-                        <div className="col-6">
+                        <div className="col-md-12 col-6">
                             <button className="btn-default" onClick={()=> this.getStarredRepo()}>Starred</button>
                         </div>
                     </div>

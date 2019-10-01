@@ -19,3 +19,9 @@ HTML / Javascript
 CSS
 
     Bootstrap and "Vanilla" CSS
+
+Some points that can be improoved
+
+    For CSS, use BEM standard with SCSS, even with few classes;
+
+    For unit tests, use Jest.
